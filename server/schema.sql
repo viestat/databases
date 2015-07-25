@@ -23,6 +23,29 @@ CREATE TABLE rooms (
   roomName VARCHAR(40)
 );
 
+INSERT INTO messages (
+  uid,
+  rid,
+  message
+)
+VALUES (
+  1,1,"first dummy test message, dawg!"
+);
+
+INSERT INTO users (
+  username
+)
+VALUES (
+  "Regular Person"
+);
+
+INSERT INTO rooms (
+  roomName
+)
+VALUES (
+  "unRegular Room"
+);
+
 
 /* Create other tables and define schemas for them here! */
 
